@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&family=Proza+Libre&family=Montserrat&display=swap');
+
+$fontHeader: 'Suez One',
+Garamond,
+serif;
+$fontSubheader: 'Proza Libre',
+Garamond,
+serif;
+$fontBody: 'Montserrat',
+Verdana,
+sans-serif;
+
+$xs: 360px;
+$s: 600px;
+$m: 768px;
+$l: 1440px;
+$xl: 1920px;
+
+.logo,
+.section-title {
+    font: 1.5rem $fontHeader;
+    text-transform: uppercase;
+}
+
+.name {
+    font: 1.75rem $fontHeader;
+}
+
+.subtitle {
+    font: 1.1rem $fontSubheader;
+}
+
+.social {
+    font: 1.5rem $fontBody;
+}
+
+.links {
+    font: 1.1rem $fontBody;
+}
+
+.stack {
+    font-size: 0.8rem;
+}
+
+.desc {
+    margin: 1rem 0;
+
+    p {
+        font-size: 0.95rem;
+        line-height: 1.6rem;
+    }
+}
+
+
+@media screen and (max-width: $xs) {
+    html {
+        font: 14px $fontBody;
+    }
+
+    .name {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: $xs) and (max-width: $m) {
+    html {
+        font: 14px $fontBody;
+    }
+}
+
+@media screen and (min-width: $m) and (max-width: $l) {
+    html {
+        font: 18px $fontBody;
+    }
+
+    .stack {
+        font-size: 0.75rem;
+    }
+
+    .desc {
+        margin: 1rem 0;
+
+        p {
+            font-size: 0.75rem;
+            line-height: 1.6rem;
+        }
+    }
+}
+
+@media screen and (min-width: $l) and (max-width: $xl) {
+    html {
+        font: 20px $fontBody;
+    }
+
+    .stack {
+        font-size: 0.75rem;
+    }
+
+    .desc {
+        margin: 1rem 0;
+
+        p {
+            font-size: 0.8rem;
+            line-height: 1.6rem;
+        }
+    }
+}
+
+@media screen and (min-width: $xl) {
+    html {
+        font: 23px $fontBody;
+    }
+
+    .stack {
+        font-size: 0.75rem;
+    }
+
+    .desc {
+        margin: 1rem 0;
+
+        p {
+            font-size: 0.8rem;
+            line-height: 1.6rem;
+        }
+    }
+}

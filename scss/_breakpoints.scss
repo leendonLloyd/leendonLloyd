@@ -1,0 +1,114 @@
+$accent: tomato;
+
+$sm: 769px;
+
+@media screen and (min-width: $sm) {
+
+    #menu-toggle {
+        display: none;
+    }
+
+    .page-links {
+        display: inline-block;
+        border-right: tomato solid 3px;
+    }
+
+    .view-link-alt {
+        display: none;
+    }
+
+
+    .alt {
+        flex-direction: row-reverse;
+    }
+}
+
+@media screen and (max-width: $sm) {
+    body {
+        overflow-x: hidden;
+    }
+    
+    #menu {
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        height: 92vh;
+        width: 50%;
+        background-color: #0a0913;
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        border-left: 3px $accent solid;
+        transform: translateX(100%);
+        transition: all 0.3s ease-in;
+
+        .links {
+            transition: -webkit-animation 0.3s ease;
+            transition: animation 0.3s ease;
+            transition: animation 0.3s ease, -webkit-animation 0.3s ease;
+        }
+
+        .page-links {
+            margin: 0 auto;
+            height: 70vh;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-self: flex-start;
+            justify-content: space-evenly;
+
+            li {
+                display: block;
+                opacity: 0;
+            }
+        }
+
+        .ex-links {
+            margin-top: 1rem;
+            margin: 0 auto;
+            height: 10vh;
+            display: flex;
+            width: 70%;
+            justify-content: space-evenly ;
+
+            li {
+                opacity: 0;
+                i {
+                font-size: 2rem;
+                }
+            }
+        }
+    }
+
+    #menu-toggle {
+        display: block;
+    }
+
+    .header {
+        position: relative;
+        bottom: 3rem
+    }
+
+    .header,
+    .wrapper,
+    .alt {
+        align-items: stretch;
+        flex-direction: column-reverse;
+
+        .showcase {
+            position: relative;
+            bottom: 3rem;
+        }
+    }
+
+    .view-link-alt {
+        display: inline-block;
+    }
+}
+
+#menu.active {
+    transform: translateX(0%);
+    opacity: 0.9;
+    visibility: visible;
+}
