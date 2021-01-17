@@ -81,10 +81,10 @@ span {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 0.8rem;
 
     .col-1 {
-        margin-top: 2rem;
-        flex-basis: 42%;
+        flex-basis: 50%;
         max-width: 90vw;
         justify-self: flex-start;
 
@@ -102,6 +102,13 @@ span {
             }
         }
 
+        .desc {
+            overflow-y: scroll;
+            p {
+                max-height: 30vh;
+            }
+        }
+
         .social {
             li {
                 a {
@@ -113,7 +120,7 @@ span {
     }
 
     .col-2 {
-        flex-basis: 55%;
+        flex-basis: 50%;
 
         .reveal-holder {
             position: relative;
