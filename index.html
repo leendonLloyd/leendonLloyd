@@ -1,369 +1,496 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leendon Lloyd | Portfolio</title>
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
-</head>
-<body>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
     <!-- Preloader -->
     <div id="loader-wrapper">
-        <div id="loader">
-            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-            width="24px" height="30px" viewBox="0 0 24 30" style="enable-background:new 0 0 50 50;" xml:space="preserve">
-           <rect x="0" y="10" width="4" height="10" fill="#333" opacity="0.2">
-             <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0s" dur="0.6s" repeatCount="indefinite" />
-             <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0s" dur="0.6s" repeatCount="indefinite" />
-             <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0s" dur="0.6s" repeatCount="indefinite" />
-           </rect>
-           <rect x="8" y="10" width="4" height="10" fill="#333"  opacity="0.2">
-             <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0.15s" dur="0.6s" repeatCount="indefinite" />
-             <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0.15s" dur="0.6s" repeatCount="indefinite" />
-             <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0.15s" dur="0.6s" repeatCount="indefinite" />
-           </rect>
-           <rect x="16" y="10" width="4" height="10" fill="#333"  opacity="0.2">
-             <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0.3s" dur="0.6s" repeatCount="indefinite" />
-             <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0.3s" dur="0.6s" repeatCount="indefinite" />
-             <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0.3s" dur="0.6s" repeatCount="indefinite" />
-           </rect>
-         </svg>
-        </div>
-        <div class="loader-section left"></div>
-        <div class="loader-section right"></div>
+      <div id="loader">
+        <svg
+          version="1.1"
+          id="Layer_1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          width="24px"
+          height="30px"
+          viewBox="0 0 24 30"
+          style="enable-background: new 0 0 50 50"
+          xml:space="preserve">
+          <rect x="0" y="10" width="4" height="10" fill="#333" opacity="0.2">
+            <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0s" dur="0.6s" repeatCount="indefinite" />
+            <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0s" dur="0.6s" repeatCount="indefinite" />
+            <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0s" dur="0.6s" repeatCount="indefinite" />
+          </rect>
+          <rect x="8" y="10" width="4" height="10" fill="#333" opacity="0.2">
+            <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0.15s" dur="0.6s" repeatCount="indefinite" />
+            <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0.15s" dur="0.6s" repeatCount="indefinite" />
+            <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0.15s" dur="0.6s" repeatCount="indefinite" />
+          </rect>
+          <rect x="16" y="10" width="4" height="10" fill="#333" opacity="0.2">
+            <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0.3s" dur="0.6s" repeatCount="indefinite" />
+            <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0.3s" dur="0.6s" repeatCount="indefinite" />
+            <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0.3s" dur="0.6s" repeatCount="indefinite" />
+          </rect>
+        </svg>
+      </div>
+      <div class="loader-section left"></div>
+      <div class="loader-section right"></div>
     </div>
-    <!-- Navigation -->
     <div id="main">
-        <nav>
-            <div class="nav">
-                <div class="logo">
-                    <a href="#banner">
-                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="339.042px" height="97.799px" viewBox="0 0 339.042 97.799" enable-background="new 0 0 339.042 97.799" xml:space="preserve">
-                            <g id="name">
-                                <path d="M78.448,79.206l-0.7,3.5H62.447c-1.3-1.6-2-2.5-3.3-4.1l14-65.905h7.801c1.3,1.7,2,2.601,3.3,4.201L71.848,75.105
-                                    c1.3,1.601,2,2.501,3.3,4.101H78.448z"/>
-                                <path d="M159.051,35.903l-3.8,17.901c-1.9,1.6-3.1,2.5-5,4.101l-50.203,0.1l-3.7,17.301l2.9,3.7l4.5-3.7l2.1-9.701
+      <!-- Navigation -->
+      <nav>
+        <div class="nav">
+          <div class="logo">
+            <a href="#banner">
+              <svg
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                width="339.042px"
+                height="97.799px"
+                viewBox="0 0 339.042 97.799"
+                enable-background="new 0 0 339.042 97.799"
+                xml:space="preserve">
+                <g id="name">
+                  <path
+                    d="M78.448,79.206l-0.7,3.5H62.447c-1.3-1.6-2-2.5-3.3-4.1l14-65.905h7.801c1.3,1.7,2,2.601,3.3,4.201L71.848,75.105
+                                    c1.3,1.601,2,2.501,3.3,4.101H78.448z" />
+                  <path
+                    d="M159.051,35.903l-3.8,17.901c-1.9,1.6-3.1,2.5-5,4.101l-50.203,0.1l-3.7,17.301l2.9,3.7l4.5-3.7l2.1-9.701
                                     c2-1.6,3.1-2.5,5.1-4.199h7.801l-3.6,16.9l-5.101,4.201H86.946l-3.3-4.201l9.101-42.402c1.9-1.6,3-2.5,5-4.1h23.102
                                     c1.3,1.6,2,2.5,3.3,4.1l-4,18.601h3.5l4-18.601l5-4.1h23.101C157.051,33.403,157.751,34.303,159.051,35.903z M111.448,39.403
                                     l-3.3-4.1h-3.3l-4.1,19.201h3.3l5.101-4.2L111.448,39.403z M145.85,61.405h7.8l-3.6,16.9c-2,1.7-3.1,2.601-5,4.201h-23.201
                                     c-1.2-1.601-2-2.501-3.2-4.201l4.1-19.301h11.901l-3.4,16.301l2.9,3.7l4.6-3.7l2-9.701C142.75,64.004,143.85,63.104,145.85,61.405z
-                                    M146.35,39.403c-1.3-1.6-2-2.5-3.3-4.1h-3.3l-4.1,19.201h3.3c2-1.6,3.1-2.6,5.1-4.2L146.35,39.403z"/>
-                                <path d="M235.05,12.901L220.25,82.805h-43.002c-1.1-1.5-1.801-2.3-2.9-3.8l8.4-39.702c-1.1-1.5-1.8-2.3-2.9-3.8
+                                    M146.35,39.403c-1.3-1.6-2-2.5-3.3-4.1h-3.3l-4.1,19.201h3.3c2-1.6,3.1-2.6,5.1-4.2L146.35,39.403z" />
+                  <path
+                    d="M235.05,12.901L220.25,82.805h-43.002c-1.1-1.5-1.801-2.3-2.9-3.8l8.4-39.702c-1.1-1.5-1.8-2.3-2.9-3.8
                                     c-1.8,1.5-2.8,2.3-4.6,3.8l-9.201,43.502h-8.301c-1.1-1.5-1.8-2.3-2.9-3.8l10-46.903h27.702c1.1,1.3,1.7,2.1,2.7,3.4l0.2,0.3
                                     l-9.201,43.602h3.301l9.101-43.102c2-1.7,3.101-2.6,5.101-4.2h15.301l3.199-15.101c2.001-1.6,3.102-2.5,5.001-4.1H235.05z
-                                    M218.25,35.603h-3.3l-5.001,4.201l-7.6,35.402c1.3,1.6,2,2.6,3.301,4.199h3.299L218.25,35.603z"/>
-                                <path d="M301.55,35.803l-10.001,47.002h-8.3c-1.101-1.5-1.701-2.3-2.9-3.8l8.5-39.702c-1.2-1.5-1.801-2.3-3-3.701h-34.803v-0.1
+                                    M218.25,35.603h-3.3l-5.001,4.201l-7.6,35.402c1.3,1.6,2,2.6,3.301,4.199h3.299L218.25,35.603z" />
+                  <path
+                    d="M301.55,35.803l-10.001,47.002h-8.3c-1.101-1.5-1.701-2.3-2.9-3.8l8.5-39.702c-1.2-1.5-1.801-2.3-3-3.701h-34.803v-0.1
                                     c-1.8,1.5-2.8,2.3-4.6,3.8l-7.701,36.303c1.101,1.5,1.801,2.299,3,3.699c1.701-1.4,2.701-2.199,4.501-3.699l7.7-36.303
                                     c-0.8-1.1-1.4-1.8-2.1-2.7h14.701l-9.001,42.402l-0.399,0.3c-1.501,1.301-2.501,2.2-4.201,3.5h-24.002
                                     c-1.1-1.5-1.699-2.3-2.899-3.699l9.2-43.303l0.301-0.3c1.6-1.3,2.6-2.1,4.199-3.4h58.805c1.1,1.3,1.799,2.1,2.8,3.4L301.55,35.803z
-                                    M269.949,36.603h14.6l-3.199,2.7l-9.201,43.502h-8.301c-1.199-1.5-1.8-2.3-2.9-3.8L269.949,36.603z"/>
-                            </g>
-                            <g id="style">
-                                
-                                    <rect x="0.164" y="43.614" transform="matrix(-0.2097 0.9778 -0.9778 -0.2097 107.1395 11.2032)" fill="#F37021" width="97.757" height="10.572"/>
-                                <path fill="#E73325" d="M0,56.498l25.65-25.65l7.475,7.475l-25.65,25.65L0,56.498z M7.473,63.975L25.65,82.151l7.475-7.476
-                                    L14.948,56.5L7.473,63.975z"/>
-                                <path fill="#E73325" d="M331.568,63.973l-25.65-25.65l7.475-7.475l25.65,25.65L331.568,63.973z M324.095,56.5l-18.178,18.176
-                                    l7.475,7.476l18.178-18.176L324.095,56.5z"/>
-                            </g>
-                        </svg>    
-                    </a>
-                </div>
-                <ul id="menu">
-                    <div class="page-links">
-                        <li><a class="links" href="#projects">Projects</a></li>
-                        <li><a class="links" href="#about-anchor">About Me</a></li>
-                        <li><a class="links" href="#contact-anchor">Contact</a></li>
-                        <li><a class="links" href="files/LLDimamay.pdf">Resume</a></li>
-                    </div>
-                    <div class="ex-links">
-                        <li><a class="links grow" href="https://github.com/leendonLloyd/"><i class="fab fa-github-square"></i></a></li>
-                        <li><a class="links grow" href="https://linkedin.com/in/lloyd-dimamay/"><i class="fab fa-linkedin"></i></a></li>
-                    </div>
-                </ul>
-                <div id="menu-toggle">
-                    <div class="line"></div>
-                </div>
+                                    M269.949,36.603h14.6l-3.199,2.7l-9.201,43.502h-8.301c-1.199-1.5-1.8-2.3-2.9-3.8L269.949,36.603z" />
+                </g>
+                <g id="style">
+                  <rect
+                    x="0.164"
+                    y="43.614"
+                    transform="matrix(-0.2097 0.9778 -0.9778 -0.2097 107.1395 11.2032)"
+                    fill="#F37021"
+                    width="97.757"
+                    height="10.572" />
+                  <path
+                    fill="#E73325"
+                    d="M0,56.498l25.65-25.65l7.475,7.475l-25.65,25.65L0,56.498z M7.473,63.975L25.65,82.151l7.475-7.476
+                                    L14.948,56.5L7.473,63.975z" />
+                  <path
+                    fill="#E73325"
+                    d="M331.568,63.973l-25.65-25.65l7.475-7.475l25.65,25.65L331.568,63.973z M324.095,56.5l-18.178,18.176
+                                    l7.475,7.476l18.178-18.176L324.095,56.5z" />
+                </g>
+              </svg>
+            </a>
+          </div>
+          <ul id="menu">
+            <div class="page-links">
+              <li><a class="links" href="#projects">Projects</a></li>
+              <li><a class="links" href="#about-anchor">About Me</a></li>
+              <li><a class="links" href="#contact-anchor">Contact</a></li>
+              <li><a class="links" href="files/LLDimamay.pdf">Resume</a></li>
             </div>
-        </nav>
-    
-        <!-- Banner -->
-        <div id="banner">
-            <canvas></canvas>
-            <div class="header">
-                <div class="title">
-                    <div class="name" data-aos="slide-right" data-aos-duration="1000" data-aos-mirror="true">
-                        <h1>LEENDON LLOYD</h1>
-                    </div>
-                    <div class="divider" data-aos="zoom-in"><span></span></div>
-                    <div class="subtitle" data-aos="slide-right" data-aos-duration="700" data-aos-delay="300" data-aos-mirror="true">
-                        <h2>ELECTRONICS ENGINEER</h2>
-                    </div>
-                    <div data-aos="slide-right" data-aos-duration="700" data-aos-delay="300" data-aos-mirror="true">
-                        <a href="#projects" class="view-link-alt">Projects</a>
-                        <a href="#contact" class="view-link-alt">Get in Touch</a>
-                    </div>
-                    
-                </div>
-                <div class="showcase" data-aos="zoom-in" data-aos-duration="1000" data-aos-mirror="true">
-                    <div id="model">
-                        <div data-depth="0.7"><img src="img/background.svg" alt="" class="bg"></div>
-                        <div data-depth="0.2"><img src="img/showcase.svg" alt=""></div>
-                    </div>
-                </div>
+            <div class="ex-links">
+              <li>
+                <a class="links grow" href="https://github.com/leendonLloyd/"><i class="fab fa-github-square"></i></a>
+              </li>
+              <li>
+                <a class="links grow" href="https://linkedin.com/in/lloyd-dimamay/"><i class="fab fa-linkedin"></i></a>
+              </li>
             </div>
+          </ul>
+          <div id="menu-toggle">
+            <div class="line"></div>
+          </div>
         </div>
-    
-        <div id="top-btn" class="flex bob" data-aos="zoom-in" data-aos-anchor="#projects"><i class="fas fa-angle-double-up"></i></div>
-        <!-- Projects -->
-        <div class="section-title" data-aos="fade-down"><h2>Projects</h2></div>
-        <div id="projects">
-            
-            <!-- Project 1 -->
-            <div class="project flex">
-                <div class="wrapper">
-                    <div class="col-1" data-aos="fade-right">
-                        <div class="name">IFInDER (Iloilo Fingerprint Integrated Device for Emergency Response)</div>
-                        <div class="divider"></div>
-                        <div class="stack">
-                            <li>Arduino Nano 3.0</li>
-                            <li>SIM 800L</li>
-                            <li>NEO6M GPS</li>
-                            <li>GT521 Fingerprint Scanner</li>
-                            <li>C/C++</li>
-                            <li>Microcontroller System</li>
-                        </div>
-                        <div class="content">
-                            <div class="desc">
-                                <p>
-                                    Watch this <a href="https://youtu.be/MfGIFGYUuzA" style="color:tomato" target="_blank">short infographic video</a> about this project on Youtube. <br>
-                                    This prototype is a wearable bracelet which is used to alert appropriate responders in an emergency situation.
-                                    When activated, the device sends out a concatenated message to a web server with info such as location and the emergency type the user is experiencing.
-                                    Appropriate responders can then monitor areas using the web app and respond accordingly when a device has been activated by the user.
-                                </p>
-                            </div>
-                        </div>
-                        <a href="https://github.com/leendonLloyd/IFInDER-Device" class="view-link" target="_blank">View Code <i class="fas fa-code"></i></a>
-        
-                    </div>
-                    <div class="col-2" data-aos="fade-left" data-aos-duration="100">
-                        <div class="reveal-holder" data-aos="reveal-item">
-                        <div class="reveal" data-aos="reveal-right"></div>
-                        <img src="img/ifinder-1600.webp" alt="IFInDER">
-                        </div>
-                    </div>
-                </div>
+      </nav>
+
+      <!-- Banner -->
+      <div id="banner">
+        <canvas></canvas>
+        <div class="header" style="user-select: none">
+          <div class="title">
+            <div class="name" data-aos="slide-right" data-aos-duration="1000" data-aos-mirror="true">
+              <h1><span style="color: tomato">LEENDON</span> LLOYD</h1>
             </div>
-            
-            <!-- Project 2 -->
-            <div class="project flex">
-                <div class="wrapper alt">
-                    <div class="col-1" data-aos="fade-left">
-                        <div class="name">Remote Thermal Control (Bluetooth)</div>
-                        <div class="divider"></div>
-                        <div class="stack">
-                            <li>Arduino Nano 3.0</li>
-                            <li>DHT22 Temp Sensor</li>
-                            <li>HC-05 BT Module</li>
-                            <li>C/C++</li>
-                            <li>Microcontroller System</li>
-                        </div>
-                        <div class="content">
-                            <div class="desc">
-                                <p>
-                                    This project is a Temperature-based Monitoring and Control system which can be connected to an Android smartphone.
-                                    It uses bluetooth technology to establish a connection between the device and the smartphone. 
-                                    After which the user can conveniently monitor the temperature and control it via the installed cooling fan.
-                                </p>
-                            </div>
-                        </div>
-                        <a href="https://github.com/leendonLloyd/Temperature-Monitoring-and-Control" class="view-link" target="_blank">View Code <i class="fas fa-code"></i></a>
-        
-                    </div>
-                    <div class="col-2" data-aos="fade-right" data-aos-duration="100">
-                        <div class="reveal-holder" data-aos="reveal-item">
-                        <div class="reveal-alt" data-aos="reveal-left"></div>
-                        <img src="img/thermo-1600.webp" alt="IFInDER">
-                        </div>
-                    </div>
-                </div>
+            <div class="divider" data-aos="zoom-in"><span></span></div>
+            <div class="subtitle"  data-aos="slide-right" data-aos-duration="700" data-aos-delay="300" data-aos-mirror="true">
+              <h2 style="font-family: 'Proza Libre'">SOFTWARE <span style="color: tomato">ENGINEER</span style="font-family: 'Garamond" class="fas fa-code"><span></span></h2>
             </div>
-    
-            <!-- Project 3 -->
-            <div class="project flex">
-                <div class="wrapper">
-                    <div class="col-1" data-aos="fade-right">
-                        <div class="name">Centrifuge Tachometer</div>
-                        <div class="divider"></div>
-                        <div class="stack">
-                            <li>Arduino Nano 3.0</li>
-                            <li>TCRT5000 IR Sensor</li>
-                            <li>C/C++</li>
-                            <li>Microcontroller System</li>
-                        </div>
-                        <div class="content">
-                            <div class="desc">
-                                <p>
-                                    This project is a tachometer used to service rotation-based medical equipment. 
-                                    It uses an IR Sensor to act as a line tracer which measures the rpm based on how many times a point passes through the sensor.
-                                    It has a high degree of accuracy in low rpm ratings but has a bit of significant margin of error of &plusmn;300 at ratings above 15000rpm.
-                                    <br>
-                                    This was a remote commission and i was only tasked to program the microcontroller and make the schematics for the prototype.
-                                    As such, optimization for the actual usage was proven to be difficult due to limitations on hardware testing.
-                                </p>
-                            </div>
-                        </div>
-                        <a href="https://github.com/leendonLloyd/Centrifuge-Tachometer" class="view-link" target="_blank">View Code <i class="fas fa-code"></i></a>
-        
-                    </div>
-                    <div class="col-2"  data-aos="fade-left" data-aos-duration="100">
-                        <div class="reveal-holder" data-aos="reveal-item">
-                        <div class="reveal" data-aos="reveal-right"></div>
-                        <img srcset="https://source.unsplash.com/10x5iT14PLQ" src="/img/tachometer-1600.webp" alt="Centrifuge Tachometer">
-                        </div>
-                    </div>
-                </div>
+            <div data-aos="slide-right" data-aos-duration="700" data-aos-delay="300" data-aos-mirror="true">
+              <a href="#projects" class="view-link-alt">Projects</a>
+              <a href="#contact" class="view-link-alt">Get in Touch</a>
             </div>
-    
-            <!-- Project 4 -->
-            <div class="project flex">
-                <div class="wrapper alt">
-                    <div class="col-1" data-aos="fade-left">
-                        <div class="name">SOS Device Prototype (via SMS)</div>
-                        <div class="divider"></div>
-                        <div class="stack">
-                            <li>Arduino Nano 3.0</li>
-                            <li>SIM 800L</li>
-                            <li>NEO6M GPS</li>
-                            <li>C/C++</li>
-                            <li>Microcontroller System</li>
-                        </div>
-                        <div class="content">
-                            <div class="desc">
-                                <p>
-                                    This project is a subset of the more complete-featured IFInDER System.
-                                    It provides a swift and simple way to inform pre-determined emergency contacts whenever the user deems a situation necessary for an SOS call.
-                                    It directly informs the contact vi SMS by giving a Google Maps link based on the GPS coordinates fetched by the module. 
-                                </p>
-                            </div>
-                        </div>
-                        <a href="https://github.com/leendonLloyd/SOS-Device" class="view-link" target="_blank">View Code <i class="fas fa-code"></i></a>
-        
-                    </div>
-                    <div class="col-2" data-aos="fade-right" data-aos-duration="100">
-                        <div class="reveal-holder" data-aos="reveal-item">
-                            <div class="reveal-alt" data-aos="reveal-left"></div>
-                            <img srcset="https://source.unsplash.com/GWkioAj5aB4" src="/img/sms-1600.jpg" alt="SOS Bracelet">
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="showcase" data-aos="zoom-in" data-aos-duration="1000" data-aos-mirror="true">
+            <div id="model">
+              <div data-depth="0.7"><img src="./img/background.svg" alt="" class="bg" /></div>
+              <div data-depth="0.2"><img src="./img/showcase.svg" alt="" /></div>
             </div>
-            
-            <!-- Project 5 -->
-            <div class="project flex">
-                <div class="wrapper">
-                    <div class="col-1" data-aos="fade-right">
-                        <div class="name">Resort Landing Page (WIP)</div>
-                        <div class="divider"></div>
-                        <div class="stack">
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                            <li>Javascript</li>
-                            <li>React</li>
-                            <li>Contentful</li>
-                            <li>JAMstack</li>
-                        </div>
-                        <div class="content">
-                            <div class="desc">
-                                <p>
-                                    This project is a landing page for a resort which uses ReactJS for frontend and Contentful API as its headless CMS.
-                                    It is currently a work in progress.
-                                </p>
-                            </div>
-                        </div>
-                        <a href="https://github.com/leendonLloyd/Resort" class="view-link" target="_blank">View Code <i class="fas fa-code"></i></a>
-                        <a href="https://hotel-resort-jamstack.netlify.app" class="view-link" target="_blank">View Demo <i class="fas fa-eye"></i></a>
-        
-                    </div>
-                    <div class="col-2" data-aos="fade-left" data-aos-duration="100">
-                        <div class="reveal-holder" data-aos="reveal-item">
-                        <div class="reveal" data-aos="reveal-right"></div>
-                        <img srcset="https://source.unsplash.com/xEaAoizNFV8" src="/img/inventory-1600.webp" alt="Hotel Resort">
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-    
-        <!-- About -->
-        <span id="about-anchor" class="anchor"></span>
-        <div id="about">
-            <div class="section-title"><h2>About Me</h2></div>
-            <div class="skills">
-                <ul>
-                    <li><span><img src="img/cpp-200.webp" alt="C++" class="icons grow"></span>C++</li>
-                    <li><span><img src="img/html-200.webp" alt="HTML5" class="icons grow"></span>HTML5</li>
-                    <li><span><img src="img/css-200.webp" alt="CSS3" class="icons grow"></span>CSS3</li>
-                    <li><span><img src="img/js-200.webp" alt="Javascript" class="icons grow"></span>Javascript</li>
-                    <li><span><img src="img/react-200.webp" alt="ReactJS" class="icons grow"></span>ReactJS</li>
-                    <li><span><img src="img/arduino-200.webp" alt="Arduino" class="icons grow"></span>Arduino</li>
-                    <li><span><img src="img/rpi-200.webp" alt="Raspberry Pi" class="icons grow"></span>Raspberry Pi</li>
-                    <li><span><img src="img/cad-300.webp" alt="AutoCAD" class="icons grow"></span>AutoCAD</li>
-                </ul>
-            </div>
-            <div class="about-content flex">
-                <div class="wrapper alt" style="justify-content: center;">
-                    <div class="col-1 alt-2">
-                        <div class="name" style="color: tomato; font-weight: 600;">Engr. Leendon Lloyd Dimamay</div>
-                        <p style="line-height: 2rem; margin: 1rem 0;"> I am a licensed Electronics Engineer with a passion for all things tech and programming. 
-                            Having the knowledge and ability to build things, be it in robotics or software development, has always taken my interest. 
-                            <br>
-                            My hands-on experience consists mostly of building microcontroller-based systems from comissions, where i further developed my knowledge in C++.
-                            With the current pandemic, I've spent the final months of 2020 teaching myself web development, where i finally built this portfolio and some of my projects. 
-                        </p>
-                        <a href="files/LLDimamay.pdf" class="view-link" download><i class="fas fa-file-pdf" style="font-size: 1.1rem;"></i> &nbsp; Download Resume</a>
-                    </div>
-                    <div class="col-2 alt-1" style="text-align: center;">
-                        <div class="photo"><img srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Engineering_Building_%28CPU_College_of_Engineering%29.jpg/640px-Engineering_Building_%28CPU_College_of_Engineering%29.jpg" src="/img/CPU COE.jpg" alt="Central Philippine University"></div>
-                        <div class="caption">
-                            <h2 class="subtitle" style="color: tomato; font-size: 1.3rem;">Central Philippine University</h2>
-                            <h2 class="subtitle"><i class="fas fa-graduation-cap"> </i> BS in Electronics and Communications Engineering</h2></div>
-                    </div>
+      </div>
+
+      <div id="top-btn" class="flex bob" data-aos="zoom-in" data-aos-anchor="#projects"><i class="fas fa-angle-double-up"></i></div>
+      <!-- Projects -->
+      <div class="section-title" data-aos="fade-down"><h2>Projects</h2></div>
+      <div id="projects">
+        <!-- Project 1 -->
+        <div class="project flex">
+          <div class="wrapper">
+            <div class="col-1" data-aos="fade-right">
+              <div class="name">IFInDER (Iloilo Fingerprint Integrated Device for Emergency Response)</div>
+              <div class="divider"></div>
+              <div class="stack">
+                <li>Arduino Nano 3.0</li>
+                <li>SIM 800L</li>
+                <li>NEO6M GPS</li>
+                <li>GT521 Fingerprint Scanner</li>
+                <li>C/C++</li>
+                <li>Microcontroller System</li>
+              </div>
+              <div class="content">
+                <div class="desc">
+                  <p>
+                    Watch this <a href="https://youtu.be/MfGIFGYUuzA" style="color: tomato" target="_blank">short infographic video</a> about this
+                    project on Youtube. <br />
+                    This prototype is a wearable bracelet which is used to alert appropriate responders in an emergency situation. When activated, the
+                    device sends out a concatenated message to a web server with info such as location and the emergency type the user is
+                    experiencing. Appropriate responders can then monitor areas using the web app and respond accordingly when a device has been
+                    activated by the user.
+                  </p>
                 </div>
+              </div>
+              <a href="https://github.com/leendonLloyd/IFInDER-Device" class="view-link" target="_blank">View Code <i class="fas fa-code"></i></a>
             </div>
+            <div class="col-2" data-aos="fade-left" data-aos-duration="100">
+              <div class="reveal-holder" data-aos="reveal-item">
+                <div class="reveal" data-aos="reveal-right"></div>
+                <img src="./img/ifinder-1600.webp" alt="IFInDER" />
+              </div>
+            </div>
+          </div>
         </div>
-        <div id="contact" class="flex">
-            <div class="wrapper">
-                <div class="col-1">
-                    <div class="name" data-aos="slide-right" data-aos-duration="1000">
-                        <h1>Get in Touch</h1>
-                    </div>
-                    <div class="divider" data-aos="zoom-in"><span></span></div>
-                    <div class="social" data-aos="slide-right" data-aos-duration="700" data-aos-delay="300">
-                        <a href="mailto:lloyd.dimamay@gmail.com">lloyd.dimamay@gmail.com</a>
-                        <br>
-                        <li><a class="links" href="https://github.com/leendonLloyd/" target="_blank"><i class="fab fa-github-square"></i></a></li>
-                        <li><a class="links" href="https://linkedin.com/in/lloyd-dimamay/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                    </div>
+
+        <!-- Project 2 -->
+        <div class="project flex">
+          <div class="wrapper alt">
+            <div class="col-1" data-aos="fade-left">
+              <div class="name">Remote Thermal Control (Bluetooth)</div>
+              <div class="divider"></div>
+              <div class="stack">
+                <li>Arduino Nano 3.0</li>
+                <li>DHT22 Temp Sensor</li>
+                <li>HC-05 BT Module</li>
+                <li>C/C++</li>
+                <li>Microcontroller System</li>
+              </div>
+              <div class="content">
+                <div class="desc">
+                  <p>
+                    This project is a Temperature-based Monitoring and Control system which can be connected to an Android smartphone. It uses
+                    bluetooth technology to establish a connection between the device and the smartphone. After which the user can conveniently
+                    monitor the temperature and control it via the installed cooling fan.
+                  </p>
                 </div>
-                <div class="col-2" data-aos="fade-left" data-aos-duration="100">
-                    <div class="reveal-holder" data-aos="reveal-item">
-                    <div class="reveal" data-aos="reveal-right"></div>
-                    <img srcset="https://source.unsplash.com/jay5BqVyf5A/1400x787 1x, https://source.unsplash.com/jay5BqVyf5A/2160x1215 2x" src="/img/contact.webp" alt="Contact Me">
-                    </div>  
-                </div>
+              </div>
+              <a href="https://github.com/leendonLloyd/Temperature-Monitoring-and-Control" class="view-link" target="_blank"
+                >View Code <i class="fas fa-code"></i
+              ></a>
             </div>
+            <div class="col-2" data-aos="fade-right" data-aos-duration="100">
+              <div class="reveal-holder" data-aos="reveal-item">
+                <div class="reveal-alt" data-aos="reveal-left"></div>
+                <img src="./img/thermo-1600.webp" alt="IFInDER" />
+              </div>
+            </div>
+          </div>
         </div>
-        <footer id="contact-anchor"><div class="footer"><h5 class="copyright"><li>&copy Leendon Lloyd Dimamay 2020.</li><li>&nbspAll rights reserved.</li></h5></div></footer>
+
+        <!-- Project 3 -->
+        <div class="project flex">
+          <div class="wrapper">
+            <div class="col-1" data-aos="fade-right">
+              <div class="name">Centrifuge Tachometer</div>
+              <div class="divider"></div>
+              <div class="stack">
+                <li>Arduino Nano 3.0</li>
+                <li>TCRT5000 IR Sensor</li>
+                <li>C/C++</li>
+                <li>Microcontroller System</li>
+              </div>
+              <div class="content">
+                <div class="desc">
+                  <p>
+                    This project is a tachometer used to service rotation-based medical equipment. It uses an IR Sensor to act as a line tracer which
+                    measures the rpm based on how many times a point passes through the sensor. It has a high degree of accuracy in low rpm ratings
+                    but has a bit of significant margin of error of &plusmn;300 at ratings above 15000rpm.
+                    <br />
+                    This was a remote commission and i was only tasked to program the microcontroller and make the schematics for the prototype. As
+                    such, optimization for the actual usage was proven to be difficult due to limitations on hardware testing.
+                  </p>
+                </div>
+              </div>
+              <a href="https://github.com/leendonLloyd/Centrifuge-Tachometer" class="view-link" target="_blank"
+                >View Code <i class="fas fa-code"></i
+              ></a>
+            </div>
+            <div class="col-2" data-aos="fade-left" data-aos-duration="100">
+              <div class="reveal-holder" data-aos="reveal-item">
+                <div class="reveal" data-aos="reveal-right"></div>
+                <img src="./img/tachometer-1600.webp" alt="Centrifuge Tachometer" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project flex">
+          <div class="wrapper alt">
+            <div class="col-1" data-aos="fade-left">
+              <div class="name">SOS Device Prototype (via SMS)</div>
+              <div class="divider"></div>
+              <div class="stack">
+                <li>Arduino Nano 3.0</li>
+                <li>SIM 800L</li>
+                <li>NEO6M GPS</li>
+                <li>C/C++</li>
+                <li>Microcontroller System</li>
+              </div>
+              <div class="content">
+                <div class="desc">
+                  <p>
+                    This project is a subset of the more complete-featured IFInDER System. It provides a swift and simple way to inform pre-determined
+                    emergency contacts whenever the user deems a situation necessary for an SOS call. It directly informs the contact vi SMS by giving
+                    a Google Maps link based on the GPS coordinates fetched by the module.
+                  </p>
+                </div>
+              </div>
+              <a href="https://github.com/leendonLloyd/SOS-Device" class="view-link" target="_blank">View Code <i class="fas fa-code"></i></a>
+            </div>
+            <div class="col-2" data-aos="fade-right" data-aos-duration="100">
+              <div class="reveal-holder" data-aos="reveal-item">
+                <div class="reveal-alt" data-aos="reveal-left"></div>
+                <img src="./img/sms-1600.jpg" alt="SOS Bracelet" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project flex">
+          <div class="wrapper">
+            <div class="col-1" data-aos="fade-right">
+              <div class="name">Resort Landing Page (WIP)</div>
+              <div class="divider"></div>
+              <div class="stack">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Javascript</li>
+                <li>React</li>
+                <li>Contentful</li>
+                <li>JAMstack</li>
+              </div>
+              <div class="content">
+                <div class="desc">
+                  <p>
+                    This project is a landing page for a resort which uses ReactJS for frontend and Contentful API as its headless CMS. It is
+                    currently a work in progress.
+                  </p>
+                </div>
+              </div>
+              <a href="https://github.com/leendonLloyd/Resort" class="view-link" target="_blank">View Code <i class="fas fa-code"></i></a>
+              <a href="https://hotel-resort-jamstack.netlify.app" class="view-link" target="_blank">View Demo <i class="fas fa-eye"></i></a>
+            </div>
+            <div class="col-2" data-aos="fade-left" data-aos-duration="100">
+              <div class="reveal-holder" data-aos="reveal-item">
+                <div class="reveal" data-aos="reveal-right"></div>
+                <img src="./img/resort-1600.webp" alt="Hotel Resort" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- About -->
+      <span id="about-anchor" class="anchor"></span>
+      <div id="about">
+        <div class="section-title"><h2>About Me</h2></div>
+        <div class="name" style="color: tomato; font-weight: 600; text-align: center">Skills</div>
+
+        <div class="skills">
+          <ul>
+            <li>
+              <span
+                ><img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/640px-Amazon_Web_Services_Logo.svg.png"
+                  alt="AWS"
+                  class="icons grow" /></span
+              >AWS
+            </li>
+            <li>
+              <span><img src="https://logos-world.net/wp-content/uploads/2021/02/Microsoft-Azure-Emblem.png" alt="Azure" class="icons grow" /></span
+              >Azure
+            </li>
+            <li>
+              <span><img src="./img/js-200.webp" alt="Javascript" class="icons grow" /></span>Javascript
+            </li>
+            <li>
+              <span
+                ><img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"
+                  alt="Python"
+                  class="icons grow" /></span
+              >Python
+            </li>
+            <li>
+              <span><img src="./img/cpp-200.webp" alt="C++" class="icons grow" /></span>C++
+            </li>
+            <li>
+              <span
+                ><img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/NestJS.svg/1200px-NestJS.svg.png"
+                  alt="NestJS"
+                  class="icons grow" /></span
+              >NestJS
+            </li>
+            <li>
+              <span><img src="./img/react-200.webp" alt="ReactJS" class="icons grow" /></span>ReactJS
+            </li>
+            <li>
+              <span><img src="https://1000logos.net/wp-content/uploads/2020/08/MySQL-Logo.png" alt="MySQL" class="icons grow" /></span>MySQL
+            </li>
+            <li>
+              <span><img src="./img/mongo.png" alt="MongoDB" class="icons grow" /></span>MongoDB
+            </li>
+            <li>
+              <span
+                ><img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/993px-Postgresql_elephant.svg.png"
+                  alt="PostGRESQL"
+                  class="icons grow" /></span
+              >PostgresSQL
+            </li>
+          </ul>
+        </div>
+        <div class="about-content flex">
+          <div class="wrapper alt" style="justify-content: center">
+            <div class="col-1 alt-2">
+              <div class="name" style="color: tomato; font-weight: 600">Leendon Lloyd Dimamay</div>
+              <p style="line-height: 2rem; margin: 1rem 0">
+                I am a software engineer with a passion for all things tech and programming. Having the knowledge and ability to build ideas into
+                reality, be it in robotics or software development, has always been a passionate topic for me.
+                <br />
+                I've been mainly working as a backend developer for the past few years. Having experience in various industries such as conversational
+                AI, cryptocurrency, fintech, oil industry, etc. I've also achieved various cloud certifications from AWS, as well as an Electronics
+                Engineering license.
+                <br />
+              </p>
+              <a href="files/LLDimamay.pdf" class="view-link" download
+                ><i class="fas fa-file-pdf" style="font-size: 1.1rem"></i> &nbsp; Download Resume</a
+              >
+            </div>
+            <div class="col-2 alt-1" style="text-align: center">
+              <div class="photo">
+                <img src="./img/profile.jpg" alt="Profile" />
+              </div>
+              <div class="caption">
+                <h2 class="subtitle" style="color: tomato; font-size: 1.3rem">Hobbies & Interests</h2>
+                <div class="skills">
+                  <ul>
+                    <li>
+                      <span><img style="height: 100px; width: auto" src="./img/home-v2.png" alt="AutoCAD" class="icons grow" /></span>Staying at home
+                    </li>
+                  </ul>
+                </div>
+                <div class="skills">
+                  <ul>
+                    <li>
+                      <span><img style="height: 50px; width: auto" src="./img/video-games.png" alt="AutoCAD" class="icons grow" /></span>Games
+                    </li>
+                    <li>
+                      <span><img style="height: 50px; width: auto" src="./img/movies.png" alt="AutoCAD" class="icons grow" /></span>Movies
+                    </li>
+                    <li>
+                      <span><img style="height: 50px; width: auto" src="./img/motorcycle.png" alt="AutoCAD" class="icons grow" /></span>Motorcycles
+                    </li>
+                    <li>
+                      <span><img style="height: 50px; width: auto" src="./img/camping.png" alt="AutoCAD" class="icons grow" /></span>Camping
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="contact" class="flex">
+        <div class="wrapper">
+          <div class="col-1">
+            <div class="name" data-aos="slide-right" data-aos-duration="1000">
+              <h1>Get in Touch</h1>
+            </div>
+            <div class="divider" data-aos="zoom-in"><span></span></div>
+            <div class="social" data-aos="slide-right" data-aos-duration="700" data-aos-delay="300">
+              <a href="mailto:lloyd.dimamay@gmail.com">lloyd.dimamay@gmail.com</a>
+              <br />
+              <li>
+                <a class="links" href="https://github.com/leendonLloyd/" target="_blank"><i class="fab fa-github-square"></i></a>
+              </li>
+              <li>
+                <a class="links" href="https://linkedin.com/in/lloyd-dimamay/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              </li>
+            </div>
+          </div>
+          <div class="col-2" data-aos="fade-left" data-aos-duration="100">
+            <div class="reveal-holder" data-aos="reveal-item">
+              <div class="reveal" data-aos="reveal-right"></div>
+              <img src="./img/contact.webp" alt="Contact Me" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer id="contact-anchor">
+        <div class="footer">
+          <h5 class="copyright">
+            <li>&copy Leendon Lloyd Dimamay 2020.</li>
+            <li>&nbspAll rights reserved.</li>
+          </h5>
+        </div>
+      </footer>
     </div>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="js/fluid.js"></script>
     <script src="js/main.js"></script>
-</body>
+  </body>
 </html>
