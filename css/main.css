@@ -374,6 +374,8 @@ span {
 .photo {
   background-position: center;
   margin: 0 auto;
+  max-height: 250px;
+  max-width: 250px;
 }
 .photo img {
   max-height: 250px;
